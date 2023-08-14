@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_description -- -j12 -l12
+[0.036s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_description -- -j12 -l12
+[0.052s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lorena/drafts_ws/build/my_box_bot_description
+[0.054s] -- Install configuration: ""
+[0.054s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//urdf
+[0.054s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_basic.urdf
+[0.054s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//rviz
+[0.054s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//rviz/urdf_gazebo.rviz
+[0.054s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//rviz/urdf_vis.rviz
+[0.054s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//launch
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//launch/publish_urdf.launch.py
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/lambert3_baseColor.jpeg
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/rplidartexture.png
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/rplidar.dae
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/realsense.dae
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/textures
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/textures/lambert3_baseColor.png
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/cute_cube.blend
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/cute_cube.dae
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/ament_index/resource_index/package_run_dependencies/my_box_bot_description
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/ament_index/resource_index/parent_prefix_path/my_box_bot_description
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.sh
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.dsv
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.sh
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.dsv
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.bash
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.sh
+[0.055s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.zsh
+[0.056s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.dsv
+[0.056s] -- Installing: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.dsv
+[0.056s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/ament_index/resource_index/packages/my_box_bot_description
+[0.056s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig.cmake
+[0.056s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig-version.cmake
+[0.056s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.xml
+[0.057s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lorena/drafts_ws/build/my_box_bot_description

@@ -1,0 +1,2 @@
+Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_gazebo -- -j12 -l12
+Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_gazebo -- -j12 -l12

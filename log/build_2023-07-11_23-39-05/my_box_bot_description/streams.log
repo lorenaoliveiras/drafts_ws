@@ -1,0 +1,36 @@
+[0.023s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_description
+[0.056s] -- The C compiler identification is GNU 9.4.0
+[0.094s] -- The CXX compiler identification is GNU 9.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.199s] -- Detecting CXX compile features
+[0.199s] -- Detecting CXX compile features - done
+[0.201s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.221s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.221s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.364s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.406s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.406s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[0.406s]   asked CMake to find a package configuration file provided by "xacro", but
+[0.406s]   CMake did not find one.
+[0.407s] 
+[0.407s]   Could not find a package configuration file provided by "xacro" with any of
+[0.407s]   the following names:
+[0.407s] 
+[0.407s]     xacroConfig.cmake
+[0.407s]     xacro-config.cmake
+[0.407s] 
+[0.407s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[0.407s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[0.407s]   provides a separate development package or SDK, be sure it has been
+[0.407s]   installed.
+[0.407s] 
+[0.407s] [0m
+[0.407s] -- Configuring incomplete, errors occurred!
+[0.410s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_description

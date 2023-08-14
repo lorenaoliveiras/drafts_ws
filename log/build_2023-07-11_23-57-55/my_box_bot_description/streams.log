@@ -1,0 +1,22 @@
+[0.023s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_description
+[0.032s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.185s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.198s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.199s] -- Found ros2_control: 0.11.0 (/opt/ros/foxy/share/ros2_control/cmake)
+[0.199s] -- Found gazebo_ros2_control: 0.1.1 (/opt/ros/foxy/share/gazebo_ros2_control/cmake)
+[0.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.338s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.339s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.421s] -- Found joint_state_broadcaster: 0.9.0 (/opt/ros/foxy/share/joint_state_broadcaster/cmake)
+[0.847s] -- Found joint_trajectory_controller: 0.9.0 (/opt/ros/foxy/share/joint_trajectory_controller/cmake)
+[0.934s] -- Found velocity_controllers: 0.9.0 (/opt/ros/foxy/share/velocity_controllers/cmake)
+[1.105s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.164s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.166s] -- Added test 'lint_cmake' to check CMake code style
+[1.167s] -- Added test 'xmllint' to check XML markup files
+[1.168s] -- Configuring done (1.1s)
+[1.170s] -- Generating done (0.0s)
+[1.171s] -- Build files have been written to: /home/lorena/drafts_ws/build/my_box_bot_description

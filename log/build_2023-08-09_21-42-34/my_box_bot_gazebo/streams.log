@@ -1,0 +1,108 @@
+[0.020s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_gazebo -- -j12 -l12
+[0.039s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.196s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[0.196s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.234s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.325s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.361s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.449s] [33mCMake Warning (dev) at /usr/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.449s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.449s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.449s]   problems in calling code that expects `find_package` result variables
+[0.449s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.449s] Call Stack (most recent call first):
+[0.449s]   /usr/share/cmake-3.26/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.449s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.449s]   /opt/ros/foxy/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
+[0.449s]   /opt/ros/foxy/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.449s]   /opt/ros/foxy/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.450s]   /opt/ros/foxy/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[0.450s]   CMakeLists.txt:21 (find_package)
+[0.450s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.450s] [0m
+[0.479s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.520s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.523s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.532s] -- Searching for dependencies of ignition-math6
+[0.536s] -- Looking for OGRE...
+[0.545s] -- Found Ogre Ghadamon (1.9.0)
+[0.545s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.555s] -- Looking for OGRE_Paging...
+[0.555s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.555s] -- Looking for OGRE_Terrain...
+[0.555s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.555s] -- Looking for OGRE_Property...
+[0.556s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.556s] -- Looking for OGRE_RTShaderSystem...
+[0.556s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.556s] -- Looking for OGRE_Volume...
+[0.556s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.556s] -- Looking for OGRE_Overlay...
+[0.556s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.667s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.667s] -- Looking for ignition-transport8 -- found version 8.4.0
+[0.668s] -- Searching for dependencies of ignition-transport8
+[0.679s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.686s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.689s] -- Checking for module 'libzmq >= 4'
+[0.698s] --   Found libzmq , version 4.3.2
+[0.724s] -- Checking for module 'uuid'
+[0.737s] --   Found uuid, version 2.34.0
+[0.791s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.792s] -- Searching for dependencies of ignition-msgs5
+[0.811s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.814s] -- Checking for module 'tinyxml2'
+[0.822s] --   Found tinyxml2, version 6.2.0
+[0.864s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.865s] -- Looking for ignition-common3 -- found version 3.15.1
+[0.866s] -- Searching for dependencies of ignition-common3
+[0.866s] -- Looking for dlfcn.h - found
+[0.866s] -- Looking for libdl - found
+[0.878s] -- Searching for <ignition-common3> component [graphics]
+[0.879s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[0.879s] -- Searching for dependencies of ignition-common3-graphics
+[0.879s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.880s] -- Looking for ignition-fuel_tools4 -- found version 4.8.3
+[0.880s] -- Searching for dependencies of ignition-fuel_tools4
+[0.906s] -- Checking for module 'jsoncpp'
+[0.914s] --   Found jsoncpp, version 1.7.4
+[0.941s] -- Checking for module 'libzip'
+[0.950s] --   Found libzip, version 1.5.1
+[1.002s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.002s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.003s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.005s] -- Gazebo version: 11.12
+[1.014s] -- Found my_box_bot_description: 0.0.0 (/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/cmake)
+[1.015s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.065s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.066s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.066s] -- Configured cppcheck include dirs: 
+[1.066s] -- Configured cppcheck exclude dirs and/or files: 
+[1.067s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.067s] -- Configured cpplint exclude dirs and/or files: 
+[1.068s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.068s] -- Added test 'lint_cmake' to check CMake code style
+[1.068s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.069s] -- Added test 'uncrustify' to check C / C++ code style
+[1.069s] -- Configured uncrustify additional arguments: 
+[1.070s] -- Added test 'xmllint' to check XML markup files
+[1.071s] -- Configuring done (1.0s)
+[1.075s] [31mCMake Error at CMakeLists.txt:29 (add_library):
+[1.075s]   Cannot find source file:
+[1.075s] 
+[1.075s]     tf_plugin.cpp
+[1.075s] 
+[1.075s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.075s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.076s] 
+[1.076s] [0m
+[1.076s] [31mCMake Error at CMakeLists.txt:29 (add_library):
+[1.076s]   No SOURCES given to target: tf_plugin
+[1.076s] 
+[1.076s] [0m
+[1.076s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.082s] make: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.084s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_gazebo -- -j12 -l12

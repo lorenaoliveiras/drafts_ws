@@ -1,0 +1,129 @@
+[0.024s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_gazebo -- -j12 -l12
+[0.041s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.241s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[0.241s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.277s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.429s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.538s] [33mCMake Warning (dev) at /usr/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.538s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.538s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.538s]   problems in calling code that expects `find_package` result variables
+[0.538s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.538s] Call Stack (most recent call first):
+[0.538s]   /usr/share/cmake-3.26/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.539s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.539s]   /opt/ros/foxy/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
+[0.539s]   /opt/ros/foxy/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.539s]   /opt/ros/foxy/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.539s]   /opt/ros/foxy/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[0.539s]   CMakeLists.txt:21 (find_package)
+[0.539s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.539s] [0m
+[0.574s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.602s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.602s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.606s] -- Searching for dependencies of ignition-math6
+[0.606s] -- Looking for OGRE...
+[0.611s] -- Found Ogre Ghadamon (1.9.0)
+[0.611s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.619s] -- Looking for OGRE_Paging...
+[0.619s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.619s] -- Looking for OGRE_Terrain...
+[0.619s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.619s] -- Looking for OGRE_Property...
+[0.620s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.620s] -- Looking for OGRE_RTShaderSystem...
+[0.620s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.620s] -- Looking for OGRE_Volume...
+[0.620s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.620s] -- Looking for OGRE_Overlay...
+[0.620s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.749s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.750s] -- Looking for ignition-transport8 -- found version 8.4.0
+[0.750s] -- Searching for dependencies of ignition-transport8
+[0.763s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.771s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.774s] -- Checking for module 'libzmq >= 4'
+[0.787s] --   Found libzmq , version 4.3.2
+[0.836s] -- Checking for module 'uuid'
+[0.860s] --   Found uuid, version 2.34.0
+[0.920s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.921s] -- Searching for dependencies of ignition-msgs5
+[0.958s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.966s] -- Checking for module 'tinyxml2'
+[0.991s] --   Found tinyxml2, version 6.2.0
+[1.054s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.054s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.055s] -- Searching for dependencies of ignition-common3
+[1.055s] -- Looking for dlfcn.h - found
+[1.055s] -- Looking for libdl - found
+[1.076s] -- Searching for <ignition-common3> component [graphics]
+[1.076s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[1.077s] -- Searching for dependencies of ignition-common3-graphics
+[1.078s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.080s] -- Looking for ignition-fuel_tools4 -- found version 4.8.3
+[1.080s] -- Searching for dependencies of ignition-fuel_tools4
+[1.143s] -- Checking for module 'jsoncpp'
+[1.167s] --   Found jsoncpp, version 1.7.4
+[1.237s] -- Checking for module 'libzip'
+[1.261s] --   Found libzip, version 1.5.1
+[1.320s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.321s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.322s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.324s] -- Gazebo version: 11.12
+[1.336s] -- Found my_box_bot_description: 0.0.0 (/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/cmake)
+[1.337s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.426s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.427s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.427s] -- Configured cppcheck include dirs: 
+[1.427s] -- Configured cppcheck exclude dirs and/or files: 
+[1.428s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.428s] -- Configured cpplint exclude dirs and/or files: 
+[1.428s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.429s] -- Added test 'lint_cmake' to check CMake code style
+[1.429s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.430s] -- Added test 'uncrustify' to check C / C++ code style
+[1.430s] -- Configured uncrustify additional arguments: 
+[1.430s] -- Added test 'xmllint' to check XML markup files
+[1.431s] -- Configuring done (1.4s)
+[1.438s] -- Generating done (0.0s)
+[1.442s] -- Build files have been written to: /home/lorena/drafts_ws/build/my_box_bot_gazebo
+[1.473s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_gazebo -- -j12 -l12
+[1.510s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lorena/drafts_ws/build/my_box_bot_gazebo
+[1.516s] -- Install configuration: ""
+[1.517s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch
+[1.517s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2.launch.xml
+[1.517s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/start_world.launch.py
+[1.517s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_description.launch.py
+[1.517s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//worlds
+[1.517s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//worlds/box_bot_empty.world
+[1.518s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models
+[1.518s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room
+[1.518s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/model.config
+[1.518s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/model.sdf
+[1.518s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes
+[1.518s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes/chambre.png
+[1.518s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes/box_room.dae
+[1.518s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/tf_plugin
+[1.519s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/tf_plugin/tf_plugin.hpp
+[1.519s] -- Installing: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/tf_plugin/tf_plugin.cpp
+[1.519s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_box_bot_gazebo
+[1.519s] -- Installing: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_box_bot_gazebo
+[1.519s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.sh
+[1.519s] -- Installing: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.dsv
+[1.519s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.sh
+[1.520s] -- Installing: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.dsv
+[1.520s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.bash
+[1.520s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.sh
+[1.520s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.zsh
+[1.520s] -- Installing: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.dsv
+[1.520s] -- Installing: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv
+[1.520s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/ament_index/resource_index/packages/my_box_bot_gazebo
+[1.520s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig.cmake
+[1.520s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig-version.cmake
+[1.520s] -- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.xml
+[1.522s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lorena/drafts_ws/build/my_box_bot_gazebo

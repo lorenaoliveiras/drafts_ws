@@ -1,0 +1,471 @@
+[0.000000] (-) TimerEvent: {}
+[0.000088] (my_box_bot_description) JobQueued: {'identifier': 'my_box_bot_description', 'dependencies': OrderedDict()}
+[0.000518] (my_box_bot_gazebo) JobQueued: {'identifier': 'my_box_bot_gazebo', 'dependencies': OrderedDict()}
+[0.000540] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000552] (my_box_bot_description) JobStarted: {'identifier': 'my_box_bot_description'}
+[0.009803] (my_box_bot_gazebo) JobStarted: {'identifier': 'my_box_bot_gazebo'}
+[0.015390] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.020762] (my_box_bot_description) JobProgress: {'identifier': 'my_box_bot_description', 'progress': 'cmake'}
+[0.022647] (my_box_bot_description) JobProgress: {'identifier': 'my_box_bot_description', 'progress': 'build'}
+[0.022714] (my_box_bot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lorena/drafts_ws/build/my_box_bot_description', '--', '-j12', '-l12'], 'cwd': '/home/lorena/drafts_ws/build/my_box_bot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lorena'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '2506'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lorena/drafts_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lorena'), ('OLDPWD', '/home/lorena/drafts_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '2298'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9605'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lorena/drafts_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lorena'), ('JOURNAL_STREAM', '8:54551'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'lorena'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/user/my_ros2_ws/src/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lorena/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lorena-Dell-G15-5511:@/tmp/.ICE-unix/2544,unix/lorena-Dell-G15-5511:/tmp/.ICE-unix/2544'), ('INVOCATION_ID', 'f119a285f1674ce384a10c0d47d6aec8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e4f033fd-4140-4def-b45e-cf31d6ce87f7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lorena/drafts_ws/build/my_box_bot_description'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/lorena/gazebo_plugin_tutorial/build'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('EDITOR', 'emacs -nw'), ('CMAKE_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy')]), 'shell': False}
+[0.026667] (my_box_bot_gazebo) JobProgress: {'identifier': 'my_box_bot_gazebo', 'progress': 'cmake'}
+[0.029345] (my_box_bot_gazebo) JobProgress: {'identifier': 'my_box_bot_gazebo', 'progress': 'build'}
+[0.029470] (my_box_bot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lorena/drafts_ws/build/my_box_bot_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/lorena/drafts_ws/build/my_box_bot_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lorena'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '2506'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lorena/drafts_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lorena'), ('OLDPWD', '/home/lorena/drafts_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '2298'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9605'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lorena/drafts_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lorena'), ('JOURNAL_STREAM', '8:54551'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'lorena'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/user/my_ros2_ws/src/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lorena/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lorena-Dell-G15-5511:@/tmp/.ICE-unix/2544,unix/lorena-Dell-G15-5511:/tmp/.ICE-unix/2544'), ('INVOCATION_ID', 'f119a285f1674ce384a10c0d47d6aec8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e4f033fd-4140-4def-b45e-cf31d6ce87f7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lorena/drafts_ws/build/my_box_bot_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/lorena/gazebo_plugin_tutorial/build'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('EDITOR', 'emacs -nw'), ('CMAKE_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy')]), 'shell': False}
+[0.032594] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.033889] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.034174] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lorena/drafts_ws/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/home/lorena/drafts_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lorena'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '2506'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lorena/drafts_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lorena'), ('OLDPWD', '/home/lorena/drafts_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '2298'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9605'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lorena/drafts_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lorena'), ('JOURNAL_STREAM', '8:54551'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'lorena'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/user/my_ros2_ws/src/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lorena/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lorena-Dell-G15-5511:@/tmp/.ICE-unix/2544,unix/lorena-Dell-G15-5511:/tmp/.ICE-unix/2544'), ('INVOCATION_ID', 'f119a285f1674ce384a10c0d47d6aec8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e4f033fd-4140-4def-b45e-cf31d6ce87f7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lorena/drafts_ws/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/lorena/gazebo_plugin_tutorial/build'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('EDITOR', 'emacs -nw'), ('CMAKE_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy')]), 'shell': False}
+[0.055767] (my_box_bot_description) CommandEnded: {'returncode': 0}
+[0.058906] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.061890] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.065372] (my_box_bot_description) JobProgress: {'identifier': 'my_box_bot_description', 'progress': 'install'}
+[0.066788] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.069085] (my_box_bot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lorena/drafts_ws/build/my_box_bot_description'], 'cwd': '/home/lorena/drafts_ws/build/my_box_bot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lorena'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '2506'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lorena/drafts_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lorena'), ('OLDPWD', '/home/lorena/drafts_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '2298'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9605'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lorena/drafts_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lorena'), ('JOURNAL_STREAM', '8:54551'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'lorena'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/user/my_ros2_ws/src/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lorena/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lorena-Dell-G15-5511:@/tmp/.ICE-unix/2544,unix/lorena-Dell-G15-5511:/tmp/.ICE-unix/2544'), ('INVOCATION_ID', 'f119a285f1674ce384a10c0d47d6aec8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e4f033fd-4140-4def-b45e-cf31d6ce87f7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lorena/drafts_ws/build/my_box_bot_description'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/lorena/gazebo_plugin_tutorial/build'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('EDITOR', 'emacs -nw'), ('CMAKE_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy')]), 'shell': False}
+[0.072643] (my_box_bot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.072950] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//urdf\n'}
+[0.073068] (my_box_bot_description) StdoutLine: {'line': b'-- Installing: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//urdf/box_bot_basic.urdf\n'}
+[0.073162] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//rviz\n'}
+[0.073298] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//rviz/urdf_gazebo.rviz\n'}
+[0.073341] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//rviz/urdf_vis.rviz\n'}
+[0.073387] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//launch\n'}
+[0.073444] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//launch/publish_urdf.launch.py\n'}
+[0.073500] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes\n'}
+[0.073586] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/lambert3_baseColor.jpeg\n'}
+[0.073643] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors\n'}
+[0.073719] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/rplidartexture.png\n'}
+[0.073795] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/rplidar.dae\n'}
+[0.073845] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/sensors/realsense.dae\n'}
+[0.073885] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/textures\n'}
+[0.073962] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/textures/lambert3_baseColor.png\n'}
+[0.074033] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/cute_cube.blend\n'}
+[0.074075] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description//meshes/cute_cube.dae\n'}
+[0.074113] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/ament_index/resource_index/package_run_dependencies/my_box_bot_description\n'}
+[0.074203] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/ament_index/resource_index/parent_prefix_path/my_box_bot_description\n'}
+[0.074269] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.sh\n'}
+[0.074350] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.dsv\n'}
+[0.074464] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.sh\n'}
+[0.074525] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.dsv\n'}
+[0.074582] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.bash\n'}
+[0.074629] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.sh\n'}
+[0.074688] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.zsh\n'}
+[0.074795] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.dsv\n'}
+[0.074842] (my_box_bot_description) StdoutLine: {'line': b'-- Installing: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.dsv\n'}
+[0.074918] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.074996] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/ament_index/resource_index/packages/my_box_bot_description\n'}
+[0.075038] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig.cmake\n'}
+[0.075076] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig-version.cmake\n'}
+[0.075115] (my_box_bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.xml\n'}
+[0.075179] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.075817] (my_box_bot_description) CommandEnded: {'returncode': 0}
+[0.077868] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.078031] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.078194] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.078935] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.089001] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.096365] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.099790] (-) TimerEvent: {}
+[0.104372] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[0.108223] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target mimic\n'}
+[0.108529] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtle_teleop_key\n'}
+[0.109409] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target draw_square\n'}
+[0.109870] (my_box_bot_description) JobEnded: {'identifier': 'my_box_bot_description', 'rc': 0}
+[0.113966] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[0.116610] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__python\n'}
+[0.125557] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.125699] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.125744] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.129022] (turtlesim) CommandEnded: {'returncode': 0}
+[0.199936] (-) TimerEvent: {}
+[0.211998] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.212238] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[0.225855] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.229904] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lorena/drafts_ws/build/turtlesim'], 'cwd': '/home/lorena/drafts_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lorena'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '2506'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lorena/drafts_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lorena'), ('OLDPWD', '/home/lorena/drafts_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '2298'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9605'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lorena/drafts_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lorena'), ('JOURNAL_STREAM', '8:54551'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'lorena'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/user/my_ros2_ws/src/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lorena/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lorena-Dell-G15-5511:@/tmp/.ICE-unix/2544,unix/lorena-Dell-G15-5511:/tmp/.ICE-unix/2544'), ('INVOCATION_ID', 'f119a285f1674ce384a10c0d47d6aec8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e4f033fd-4140-4def-b45e-cf31d6ce87f7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lorena/drafts_ws/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/lorena/gazebo_plugin_tutorial/build'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('EDITOR', 'emacs -nw'), ('CMAKE_PREFIX_PATH', '/home/lorena/drafts_ws/install/turtlesim:/home/lorena/drafts_ws/install/my_box_bot_gazebo:/home/lorena/drafts_ws/install/my_box_bot_description:/opt/ros/foxy')]), 'shell': False}
+[0.233169] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.233328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.233376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim\n'}
+[0.233417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.233456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[0.233494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.233548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.233662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[0.233757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.233796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.233834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.233872] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[0.233911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[0.233947] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.233985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.234022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[0.234058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[0.234095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.234132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.234169] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.234205] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.234242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[0.234278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.234338] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.234376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[0.234414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.234451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[0.234488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[0.234537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[0.234574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[0.234611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.234649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.234719] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.234755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[0.234790] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.234825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[0.234859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[0.234893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[0.234927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[0.234962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[0.234997] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[0.235034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[0.235071] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[0.235108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.235145] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[0.235182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.235218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.235256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.235293] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[0.235330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.235368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.235405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.235441] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.235479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim\n'}
+[0.235516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.235596] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.235639] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.235685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.235725] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.235767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.235873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.235910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.235945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.235980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.236017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.236054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.236091] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.236129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.236166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.236208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.236257] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim\n'}
+[0.236294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.236391] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.236427] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.236462] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.236497] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.236532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.236566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[0.236600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.236634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.236668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.236705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[0.236739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.236773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.236807] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.236842] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.236879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.236916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[0.236953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.236991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.237028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim\n'}
+[0.237064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.237100] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.237136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.237173] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.237220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.237256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.237291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.237325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.237359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.237393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.237427] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.237461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.237495] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.237533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.237569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.237605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.237658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.237696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[0.237768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.237806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.237843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.237879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.237916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.237953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.237990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.238027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim\n'}
+[0.238062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.238099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[0.238137] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[0.238173] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.238210] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[0.238247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[0.238284] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[0.238336] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[0.238448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[0.238488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[0.238525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[0.238562] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[0.238599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[0.238659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[0.238698] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[0.238735] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[0.238794] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[0.238830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[0.238864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[0.238898] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[0.238932] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[0.238966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[0.239000] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.239034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.239087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[0.239122] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[0.239156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[0.239200] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[0.239240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[0.239290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[0.239346] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[0.239401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[0.239456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.239500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.239535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[0.239579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[0.239637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[0.239674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[0.239723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim\n'}
+[0.239762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.239800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.239838] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[0.239876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.239914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[0.240017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.240054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.240093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.240141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[0.240177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[0.240214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.240250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[0.240285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.240320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.240354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[0.240388] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.240423] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.240458] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[0.240494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.240530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.240565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.240601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[0.240636] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.240670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.240718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[0.240793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[0.240827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[0.247334] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.250279] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.261834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[0.261985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[0.262023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[0.262061] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[0.262123] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[0.262162] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[0.262201] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[0.262239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[0.262276] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[0.262329] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[0.262406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[0.262444] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[0.262479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[0.262514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[0.262548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[0.262582] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[0.262616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[0.262650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[0.262686] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[0.262721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[0.262756] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[0.262791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[0.262963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.263481] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.263933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.264670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[0.264824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[0.264876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[0.264929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[0.265034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[0.265086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[0.265139] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[0.265208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[0.265249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[0.265288] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[0.265327] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[0.265365] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[0.265407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[0.265459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[0.265548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[0.265587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[0.265623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[0.265658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[0.265698] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[0.265733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[0.265767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[0.265800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[0.265833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[0.265867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[0.265901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[0.265935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[0.265970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[0.266101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[0.266632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[0.267306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[0.267821] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[0.267974] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/images\n'}
+[0.268127] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[0.268179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[0.268241] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[0.268278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[0.268313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[0.268348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[0.268382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/launch\n'}
+[0.268431] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[0.268483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[0.268599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[0.268649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[0.268702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[0.268753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[0.268804] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[0.268863] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[0.268901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[0.268939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[0.268976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[0.269052] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[0.269340] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[0.270030] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[0.270088] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.270298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.270347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.270604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[0.270676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.270985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[0.271235] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.271301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.271522] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[0.271617] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.271687] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[0.271744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.271808] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.271858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.271906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.271957] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.272020] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.272058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[0.272094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[0.272129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[0.273424] (turtlesim) CommandEnded: {'returncode': 0}
+[0.300049] (-) TimerEvent: {}
+[0.352873] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.391119] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.393603] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400601] (-) TimerEvent: {}
+[0.402315] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[0.489881] (my_box_bot_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.490061] (my_box_bot_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.490123] (my_box_bot_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.490160] (my_box_bot_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.490202] (my_box_bot_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.490252] (my_box_bot_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.490287] (my_box_bot_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.26/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.490323] (my_box_bot_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.490358] (my_box_bot_gazebo) StderrLine: {'line': b'  /opt/ros/foxy/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)\n'}
+[0.490393] (my_box_bot_gazebo) StderrLine: {'line': b'  /opt/ros/foxy/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[0.490429] (my_box_bot_gazebo) StderrLine: {'line': b'  /opt/ros/foxy/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.490464] (my_box_bot_gazebo) StderrLine: {'line': b'  /opt/ros/foxy/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[0.490498] (my_box_bot_gazebo) StderrLine: {'line': b'  CMakeLists.txt:21 (find_package)\n'}
+[0.490533] (my_box_bot_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.490574] (my_box_bot_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.500719] (-) TimerEvent: {}
+[0.522009] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.548750] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[0.550252] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.555397] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.556967] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.560819] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.561018] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.567899] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.568142] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.568334] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.568380] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.568419] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.568456] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.568493] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.568529] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.568575] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.568611] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.568648] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.568686] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.600825] (-) TimerEvent: {}
+[0.686906] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.687642] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.4.0\n'}
+[0.688060] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.700560] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[0.700875] (-) TimerEvent: {}
+[0.708899] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.711965] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.722095] (my_box_bot_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[0.747406] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.755148] (my_box_bot_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[0.774981] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[0.775119] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.787665] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.790617] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.798695] (my_box_bot_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[0.800942] (-) TimerEvent: {}
+[0.820197] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[0.820583] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[0.820664] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.820817] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.820888] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.829457] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.830008] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.15.1\n'}
+[0.830163] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.830402] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.831902] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.8.3\n'}
+[0.832086] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.860490] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.868562] (my_box_bot_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[0.897816] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.901087] (-) TimerEvent: {}
+[0.907901] (my_box_bot_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[0.938657] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[0.938926] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.939364] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[0.940854] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.12\n'}
+[0.946729] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found my_box_bot_description: 0.0.0 (/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/cmake)\n'}
+[0.948002] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.996549] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.997225] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.997627] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.997718] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.998462] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.998515] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.998813] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.999194] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.999499] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.000238] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.000280] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.000455] (my_box_bot_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.001136] (-) TimerEvent: {}
+[1.001475] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[1.025981] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.027426] (my_box_bot_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/lorena/drafts_ws/build/my_box_bot_gazebo\n'}
+[1.044894] (my_box_bot_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf_plugin.dir/models/tf_plugin/tf_plugin.cpp.o\x1b[0m\n'}
+[1.048793] (my_box_bot_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kno input files\n'}
+[1.048889] (my_box_bot_gazebo) StderrLine: {'line': b'compilation terminated.\n'}
+[1.048929] (my_box_bot_gazebo) StderrLine: {'line': b'/bin/sh: 1: -std=gnu++17: not found\n'}
+[1.048995] (my_box_bot_gazebo) StderrLine: {'line': b'make[2]: *** [CMakeFiles/tf_plugin.dir/build.make:76: CMakeFiles/tf_plugin.dir/models/tf_plugin/tf_plugin.cpp.o] Error 127\n'}
+[1.049092] (my_box_bot_gazebo) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tf_plugin.dir/all] Error 2\n'}
+[1.049370] (my_box_bot_gazebo) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[1.050378] (my_box_bot_gazebo) CommandEnded: {'returncode': 2}
+[1.071306] (my_box_bot_gazebo) JobEnded: {'identifier': 'my_box_bot_gazebo', 'rc': 2}
+[1.081908] (-) EventReactorShutdown: {}

@@ -1,0 +1,294 @@
+[0.196s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.196s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2df3c573d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2df3c573d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2df3c57910>)
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.211s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lorena/drafts_ws'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_description) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_box_bot_description' with type 'ros.ament_cmake' and name 'my_box_bot_description'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_box_bot_gazebo) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_box_bot_gazebo' with type 'ros.ament_cmake' and name 'my_box_bot_gazebo'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/lorena/drafts_ws/install
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/foxy
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.291s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /home/lorena/drafts_ws/install/turtlesim, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'my_box_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lorena/drafts_ws/build/my_box_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lorena/drafts_ws/install/my_box_bot_description', 'merge_install': False, 'path': '/home/lorena/drafts_ws/src/my_box_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_box_bot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'my_box_bot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lorena/drafts_ws/build/my_box_bot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lorena/drafts_ws/install/my_box_bot_gazebo', 'merge_install': False, 'path': '/home/lorena/drafts_ws/src/my_box_bot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lorena/drafts_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lorena/drafts_ws/install/turtlesim', 'merge_install': False, 'path': '/home/lorena/drafts_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.294s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.296s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.296s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lorena/drafts_ws/src/my_box_bot_description' with build type 'ament_cmake'
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lorena/drafts_ws/src/my_box_bot_description'
+[0.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lorena/drafts_ws/src/my_box_bot_gazebo' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lorena/drafts_ws/src/my_box_bot_gazebo'
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lorena/drafts_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lorena/drafts_ws/src/ros_tutorials/turtlesim'
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_description -- -j12 -l12
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_gazebo -- -j12 -l12
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorena/drafts_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/turtlesim -- -j12 -l12
+[0.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_description -- -j12 -l12
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lorena/drafts_ws/build/my_box_bot_description
+[0.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_description)
+[0.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lorena/drafts_ws/build/my_box_bot_description
+[0.363s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description' for CMake module files
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description' for CMake config files
+[0.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_description', 'cmake_prefix_path')
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.ps1'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.dsv'
+[0.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.sh'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description/bin'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description/lib/pkgconfig/my_box_bot_description.pc'
+[0.367s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description/lib/python3.8/site-packages'
+[0.367s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description/bin'
+[0.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.ps1'
+[0.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.dsv'
+[0.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.sh'
+[0.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.bash'
+[0.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.zsh'
+[0.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorena/drafts_ws/install/my_box_bot_description/share/colcon-core/packages/my_box_bot_description)
+[0.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_description)
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description' for CMake module files
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description' for CMake config files
+[0.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_description', 'cmake_prefix_path')
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/hook/cmake_prefix_path.sh'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description/bin'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description/lib/pkgconfig/my_box_bot_description.pc'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description/lib/python3.8/site-packages'
+[0.390s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_description/bin'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.sh'
+[0.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.bash'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_description/share/my_box_bot_description/package.zsh'
+[0.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorena/drafts_ws/install/my_box_bot_description/share/colcon-core/packages/my_box_bot_description)
+[0.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorena/drafts_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/turtlesim -- -j12 -l12
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorena/drafts_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lorena/drafts_ws/build/turtlesim
+[0.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim' for CMake module files
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorena/drafts_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lorena/drafts_ws/build/turtlesim
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim' for CMake config files
+[0.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/lib'
+[0.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/bin'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages'
+[0.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/bin'
+[0.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.sh'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.bash'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.zsh'
+[0.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorena/drafts_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[0.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[0.666s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim' for CMake module files
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim' for CMake config files
+[0.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/lib'
+[0.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/bin'
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/lib/python3.8/site-packages'
+[0.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/turtlesim/bin'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.ps1'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.sh'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.bash'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/turtlesim/share/turtlesim/package.zsh'
+[0.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorena/drafts_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[1.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lorena/drafts_ws/build/my_box_bot_gazebo -- -j12 -l12
+[1.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_box_bot_gazebo)
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_gazebo' for CMake module files
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_gazebo' for CMake config files
+[1.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_box_bot_gazebo', 'cmake_prefix_path')
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.sh'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_gazebo/bin'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_gazebo/lib/pkgconfig/my_box_bot_gazebo.pc'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_gazebo/lib/python3.8/site-packages'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/lorena/drafts_ws/install/my_box_bot_gazebo/bin'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.sh'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.bash'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorena/drafts_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.zsh'
+[1.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorena/drafts_ws/install/my_box_bot_gazebo/share/colcon-core/packages/my_box_bot_gazebo)
+[1.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.420s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.430s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.430s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.430s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.448s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lorena/drafts_ws/install/local_setup.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lorena/drafts_ws/install/_local_setup_util_ps1.py'
+[1.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lorena/drafts_ws/install/setup.ps1'
+[1.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lorena/drafts_ws/install/local_setup.sh'
+[1.452s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lorena/drafts_ws/install/_local_setup_util_sh.py'
+[1.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lorena/drafts_ws/install/setup.sh'
+[1.453s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lorena/drafts_ws/install/local_setup.bash'
+[1.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lorena/drafts_ws/install/setup.bash'
+[1.454s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lorena/drafts_ws/install/local_setup.zsh'
+[1.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lorena/drafts_ws/install/setup.zsh'

@@ -1,0 +1,36 @@
+[0.029s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_gazebo
+[0.087s] -- The C compiler identification is GNU 9.4.0
+[0.155s] -- The CXX compiler identification is GNU 9.4.0
+[0.165s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.239s] -- Detecting C compile features
+[0.239s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.320s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.335s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.366s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.366s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.612s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[0.624s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.624s]   By not providing "Findgazebp_ros.cmake" in CMAKE_MODULE_PATH this project
+[0.624s]   has asked CMake to find a package configuration file provided by
+[0.624s]   "gazebp_ros", but CMake did not find one.
+[0.624s] 
+[0.624s]   Could not find a package configuration file provided by "gazebp_ros" with
+[0.624s]   any of the following names:
+[0.624s] 
+[0.625s]     gazebp_rosConfig.cmake
+[0.625s]     gazebp_ros-config.cmake
+[0.625s] 
+[0.625s]   Add the installation prefix of "gazebp_ros" to CMAKE_PREFIX_PATH or set
+[0.625s]   "gazebp_ros_DIR" to a directory containing one of the above files.  If
+[0.625s]   "gazebp_ros" provides a separate development package or SDK, be sure it has
+[0.625s]   been installed.
+[0.625s] 
+[0.625s] [0m
+[0.625s] -- Configuring incomplete, errors occurred!
+[0.629s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_gazebo

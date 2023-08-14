@@ -1,0 +1,40 @@
+[0.025s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_description
+[0.032s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.188s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.201s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.202s] -- Found ros2_control: 0.11.0 (/opt/ros/foxy/share/ros2_control/cmake)
+[0.203s] -- Found gazebo_ros2_control: 0.1.1 (/opt/ros/foxy/share/gazebo_ros2_control/cmake)
+[0.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.250s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.304s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.328s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.466s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.467s] -- Looking for pthread_create in pthreads
+[0.498s] -- Looking for pthread_create in pthreads - not found
+[0.499s] -- Looking for pthread_create in pthread
+[0.539s] -- Looking for pthread_create in pthread - found
+[0.540s] -- Found Threads: TRUE  
+[0.648s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[0.648s]   By not providing "Findjoint_state_broadcaster.cmake" in CMAKE_MODULE_PATH
+[0.648s]   this project has asked CMake to find a package configuration file provided
+[0.648s]   by "joint_state_broadcaster", but CMake did not find one.
+[0.648s] 
+[0.648s]   Could not find a package configuration file provided by
+[0.648s]   "joint_state_broadcaster" with any of the following names:
+[0.648s] 
+[0.648s]     joint_state_broadcasterConfig.cmake
+[0.648s]     joint_state_broadcaster-config.cmake
+[0.648s] 
+[0.648s]   Add the installation prefix of "joint_state_broadcaster" to
+[0.648s]   CMAKE_PREFIX_PATH or set "joint_state_broadcaster_DIR" to a directory
+[0.648s]   containing one of the above files.  If "joint_state_broadcaster" provides a
+[0.648s]   separate development package or SDK, be sure it has been installed.
+[0.648s] 
+[0.648s] [0m
+[0.648s] -- Configuring incomplete, errors occurred!
+[0.653s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_description

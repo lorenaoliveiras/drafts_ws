@@ -1,0 +1,121 @@
+[0.026s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_gazebo
+[0.034s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.224s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[0.228s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.286s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.381s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.418s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.555s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.610s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.610s] -- Looking for pthread_create in pthreads
+[0.657s] -- Looking for pthread_create in pthreads - not found
+[0.657s] -- Looking for pthread_create in pthread
+[0.763s] -- Looking for pthread_create in pthread - found
+[0.766s] -- Found Threads: TRUE  
+[0.907s] [33mCMake Warning (dev) at /usr/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.907s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.907s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.907s]   problems in calling code that expects `find_package` result variables
+[0.907s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.907s] Call Stack (most recent call first):
+[0.907s]   /usr/share/cmake-3.26/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.907s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.908s]   /opt/ros/foxy/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
+[0.908s]   /opt/ros/foxy/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.908s]   /opt/ros/foxy/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.908s]   /opt/ros/foxy/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[0.908s]   CMakeLists.txt:21 (find_package)
+[0.908s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.908s] [0m
+[0.908s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.908s] -- Checking for module 'bullet>=2.82'
+[0.921s] --   Found bullet, version 2.88
+[1.101s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.197s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.294s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.347s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.378s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.395s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.401s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.409s] -- Searching for dependencies of ignition-math6
+[1.411s] -- Looking for OGRE...
+[1.412s] -- OGRE_PREFIX_WATCH changed.
+[1.416s] -- Checking for module 'OGRE'
+[1.428s] --   Found OGRE, version 1.9.0
+[1.484s] -- Found Ogre Ghadamon (1.9.0)
+[1.509s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.526s] -- Looking for OGRE_Paging...
+[1.539s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.539s] -- Looking for OGRE_Terrain...
+[1.547s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.547s] -- Looking for OGRE_Property...
+[1.554s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.554s] -- Looking for OGRE_RTShaderSystem...
+[1.561s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.561s] -- Looking for OGRE_Volume...
+[1.568s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.568s] -- Looking for OGRE_Overlay...
+[1.575s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.716s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.721s] -- Looking for ignition-transport8 -- found version 8.4.0
+[1.721s] -- Searching for dependencies of ignition-transport8
+[1.737s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.746s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.750s] -- Checking for module 'libzmq >= 4'
+[1.762s] --   Found libzmq , version 4.3.2
+[1.806s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.818s] -- Checking for module 'uuid'
+[1.844s] --   Found uuid, version 2.34.0
+[1.905s] -- Found UUID: TRUE  
+[1.911s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.911s] -- Searching for dependencies of ignition-msgs5
+[1.949s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.958s] -- Checking for module 'tinyxml2'
+[1.985s] --   Found tinyxml2, version 6.2.0
+[2.052s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.058s] -- Looking for ignition-common3 -- found version 3.15.1
+[2.059s] -- Searching for dependencies of ignition-common3
+[2.060s] -- Looking for dlfcn.h - found
+[2.063s] -- Looking for libdl - found
+[2.067s] -- Found DL: TRUE  
+[2.085s] -- Searching for <ignition-common3> component [graphics]
+[2.092s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[2.092s] -- Searching for dependencies of ignition-common3-graphics
+[2.093s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.101s] -- Looking for ignition-fuel_tools4 -- found version 4.8.3
+[2.101s] -- Searching for dependencies of ignition-fuel_tools4
+[2.224s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.243s] -- Checking for module 'jsoncpp'
+[2.270s] --   Found jsoncpp, version 1.7.4
+[2.329s] -- Found JSONCPP: TRUE  
+[2.339s] -- Checking for module 'libzip'
+[2.362s] --   Found libzip, version 1.5.1
+[2.403s] -- Found ZIP: TRUE  
+[2.403s] -- Looking for ignition-common3 -- found version 3.15.1
+[2.404s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.404s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.405s] -- Gazebo version: 11.12
+[2.422s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[2.423s]   By not providing "Findmy_box_bot_description.cmake" in CMAKE_MODULE_PATH
+[2.423s]   this project has asked CMake to find a package configuration file provided
+[2.423s]   by "my_box_bot_description", but CMake did not find one.
+[2.423s] 
+[2.423s]   Could not find a package configuration file provided by
+[2.423s]   "my_box_bot_description" with any of the following names:
+[2.423s] 
+[2.423s]     my_box_bot_descriptionConfig.cmake
+[2.423s]     my_box_bot_description-config.cmake
+[2.423s] 
+[2.423s]   Add the installation prefix of "my_box_bot_description" to
+[2.423s]   CMAKE_PREFIX_PATH or set "my_box_bot_description_DIR" to a directory
+[2.423s]   containing one of the above files.  If "my_box_bot_description" provides a
+[2.423s]   separate development package or SDK, be sure it has been installed.
+[2.423s] 
+[2.423s] [0m
+[2.423s] -- Configuring incomplete, errors occurred!
+[2.435s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_gazebo

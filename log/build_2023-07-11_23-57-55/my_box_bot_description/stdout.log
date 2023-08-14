@@ -1,0 +1,21 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Found ros2_control: 0.11.0 (/opt/ros/foxy/share/ros2_control/cmake)
+-- Found gazebo_ros2_control: 0.1.1 (/opt/ros/foxy/share/gazebo_ros2_control/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found joint_state_broadcaster: 0.9.0 (/opt/ros/foxy/share/joint_state_broadcaster/cmake)
+-- Found joint_trajectory_controller: 0.9.0 (/opt/ros/foxy/share/joint_trajectory_controller/cmake)
+-- Found velocity_controllers: 0.9.0 (/opt/ros/foxy/share/velocity_controllers/cmake)
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/lorena/drafts_ws/build/my_box_bot_description

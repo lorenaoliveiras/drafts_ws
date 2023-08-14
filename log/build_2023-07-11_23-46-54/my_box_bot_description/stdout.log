@@ -1,0 +1,6 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Found ros2_control: 0.11.0 (/opt/ros/foxy/share/ros2_control/cmake)
+-- Configuring incomplete, errors occurred!

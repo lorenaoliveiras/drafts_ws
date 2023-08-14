@@ -1,0 +1,25 @@
+[0.026s] Invoking command in '/home/lorena/drafts_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_description
+[0.033s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.048s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.180s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.194s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.196s] -- Found ros2_control: 0.11.0 (/opt/ros/foxy/share/ros2_control/cmake)
+[0.205s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[0.205s]   By not providing "Findgazebo_ros2_control.cmake" in CMAKE_MODULE_PATH this
+[0.205s]   project has asked CMake to find a package configuration file provided by
+[0.205s]   "gazebo_ros2_control", but CMake did not find one.
+[0.205s] 
+[0.205s]   Could not find a package configuration file provided by
+[0.205s]   "gazebo_ros2_control" with any of the following names:
+[0.205s] 
+[0.205s]     gazebo_ros2_controlConfig.cmake
+[0.205s]     gazebo_ros2_control-config.cmake
+[0.205s] 
+[0.205s]   Add the installation prefix of "gazebo_ros2_control" to CMAKE_PREFIX_PATH
+[0.205s]   or set "gazebo_ros2_control_DIR" to a directory containing one of the above
+[0.205s]   files.  If "gazebo_ros2_control" provides a separate development package or
+[0.205s]   SDK, be sure it has been installed.
+[0.205s] 
+[0.205s] [0m
+[0.205s] -- Configuring incomplete, errors occurred!
+[0.207s] Invoked command in '/home/lorena/drafts_ws/build/my_box_bot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorena/my_ros2_ws/install/turtlebot3_teleop:/home/lorena/my_ros2_ws/install/turtlebot3_example:/home/lorena/my_ros2_ws/install/control_pkg:/opt/ros/foxy /usr/bin/cmake /home/lorena/drafts_ws/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/home/lorena/drafts_ws/install/my_box_bot_description
